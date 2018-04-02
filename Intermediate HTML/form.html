@@ -8,9 +8,9 @@
 	<form>
 		<div>
 		<label for="firstName"><strong>First Name: </strong></label>
-		<input id="firstName" type="text" name="firstName" placeholder="Raja">
+		<input id="firstName" type="text" name="firstName" placeholder="Raja" required>
 		<label for="lastName"><strong>Last Name: </strong></label>
-		<input type="text" name="lastName" id="lastName" placeholder="Pandian">
+		<input type="text" name="lastName" id="lastName" placeholder="Pandian" required>
 		</div>
 		<div>
 		<label for="male"><strong>Male</strong></label>
@@ -24,7 +24,7 @@
 		<label for="email"><strong>Email: </strong></label>
 		<input type="email" name="email" id="email" required placeholder="your email">
 		<label for="password"><strong>Password: </strong></label>
-		<input type="password" name="password" id="password" required placeholder="your password">
+		<input type="password" name="password" id="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
 		</div>
 		<div>
       <label for="select-choice"><strong>Birthday:</strong></label>
