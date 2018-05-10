@@ -1,0 +1,77 @@
+body{
+	background-color: #232323;
+	font-family: "Montserrat", "Avenir";
+	margin: 0;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px;
+}
+
+.square{
+	width: 30%;
+	margin: 1.6%;
+	float: left;
+	background-color: pink;
+	padding-bottom: 30%;
+	border: 0;
+	background: none;
+	border-radius: 15px;
+	transition: background 0.3s;
+}
+
+.container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+#stripe {
+	height: 30px;
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+
+}
+
+
+#pickedColor {
+	font-size: 200%;
+
+}
+
+button {
+	border: none;
+	background: none;
+	height: 100%;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	transition: all 0.3s;
+	letter-spacing: 1px;
+	outline: none;
+}
+
+button:hover {
+	background: steelblue;
+	color: white;
+}
+
+#guessOutcome {
+	width: 10%;
+	display: inline-block;
+	text-transform: uppercase;
+}
